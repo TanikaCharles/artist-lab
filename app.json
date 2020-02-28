@@ -1,0 +1,9 @@
+{
+    "name": "Start on Heroku: Node.js",
+    "description": "My express project",
+    "repository": "https://github.com/TanikaCharles/TanikaCharles.github.io",
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+    "keywords": ["node", "express", "heroku"],
+    "image": "heroku/nodejs"
+    }
+   

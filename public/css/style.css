@@ -1,0 +1,73 @@
+
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'Sigmar One', cursive;
+}
+
+.deleteBtn {
+	background-color: red;
+	float: right;
+	border-radius: 5px;
+}
+
+#top-bar {
+	border: solid;
+	border-width: thin;
+	width: 60%;
+	display: inline-block;
+	margin: 2%;
+	margin-bottom: 0;
+	border-color: lightgray;
+}
+
+#top-bar input{
+	width: 50%;
+}
+
+#artist-list {
+	width: 40%;
+	margin: 0 auto;
+	display: grid;
+	color: dimgray;
+}
+
+#new_artist_form {
+	width: 40%;
+	margin: 0 auto;
+	display: grid;
+	color: dimgray;
+	display: none;
+}
+
+.artist{
+	border: solid;
+	border-width: thin;
+	border-color: lightgray;
+	border-top: none;
+	text-align: left;
+}
+
+.artist-img {
+	width: 20%;
+	float: left;
+	margin: 5%
+		
+}
+.desc {
+	width: 60%;
+	float: right;
+}
+
+.desc p {
+	float: left;
+	width: 60%;
+	margin: 0;
+}
+
+#artist-list :hover {
+	background-color: lightgray;
+}

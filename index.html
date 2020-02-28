@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Sigmar+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="top-bar">
+		<h1>Artist Directory</h1>
+		<p>
+			<input id="searchText" type="text"><button id="search">Search</button>
+			<button id="add_artist" onClick="showArtistForm()">Add Artist</button>
+		</p>
+	</div>
+	
+	<div id="new_artist_form">
+		<input id="addArtistName" type="text" placeholder="name">
+		<input id="addArtistDesc" type="text" placeholder="description">
+		<input id="addArtistPhoto" type="text" placeholder="photo_link">
+		<button id="submit">Add</button>
+	</div>
+	
+	<div id="artist-list">
+	</div>
+	
+</body>
+</html>
