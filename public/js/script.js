@@ -9,7 +9,7 @@ document.addEventListener('readystatechange', async()=>{
 });
 
 async function fillPage(){
-	var artists = await fetch("artists/all");
+	var artists = await fetch("https://artist-lab.herokuapp.com/artists/all");
 	artists = await artists.json();
 	console.log(artists);
 	artistList.innerHTML = "";
@@ -81,7 +81,7 @@ function addArtistToHTML(addArtistName, addArtistDesc, addArtistPhoto) {
 
 async function addArtistToDB(name, url, desc){
 	console.log("adding");
-	var artists = await fetch("http://localhost:3000/artists/add", {
+	var artists = await fetch("https://artist-lab.herokuapp.com/artists/add", {
 		method:"POST",
 		headers:{
 			"Content-Type":"application/json"
